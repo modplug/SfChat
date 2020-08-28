@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicData" Version="6.16.6" />
+    <PackageReference Include="ReactiveUI" Version="11.5.26" />
+    <PackageReference Include="Syncfusion.Xamarin.SfChat" Version="18.2.0.55" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+  </ItemGroup>
+</Project>
