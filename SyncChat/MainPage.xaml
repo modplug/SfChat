@@ -4,6 +4,9 @@
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              ios:Page.UseSafeArea="true"
              x:Class="SyncChat.MainPage">
-    <chat:SfChat Messages="{Binding Messages}" SendMessageCommand="{Binding SendMessageCommand}">
+    <chat:SfChat x:Name="ChatView"
+                 Background="Transparent"
+                 SendMessage="ChatView_OnSendMessage">
+
     </chat:SfChat>
 </ContentPage>
